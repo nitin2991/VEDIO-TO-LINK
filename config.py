@@ -25,7 +25,7 @@ BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>𝙱𝙾𝚃 𝚄𝙿𝚃�
 USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "❌ 𝙿𝚕𝚎𝚊𝚜𝚎 𝙰𝚟𝚘𝚒𝚍 𝙳𝚒𝚛𝚎𝚌𝚝 𝙼𝚎𝚜𝚜𝚊𝚐𝚎𝚜. 𝙸'𝚖 𝚆𝚘𝚛𝚔𝚒𝚗𝚐 𝙵𝚘𝚛 𝙾𝚗𝚕𝚢  @Nitin_510")
 
 #your bot token here from https://telegram.me/BotFather
-TG_BOT_TOKEN = os.environ.get("8172817242:AAFuLyeYiWLTyUuFRF_sMUs2jvCZGMquQMA", "") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8172817242:AAFuLyeYiWLTyUuFRF_sMUs2jvCZGMquQMA") 
 #your api id from https://my.telegram.org/apps
 APP_ID = int(os.environ.get("APP_ID", "29801489"))
 #your api hash from https://my.telegram.org/apps
@@ -39,7 +39,7 @@ PORT = os.environ.get("PORT", "6245")
 #your database url mongodb only You can use mongo atlas free cloud database
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://nitin:nitin000001@sharebot.tcyjilw.mongodb.net/?retryWrites=true&w=majority&appName=sharebot")
 #your database name
-DB_NAME = os.environ.get("DB_NAME", nitin")
+DB_NAME = os.environ.get("DB_NAME", "nitin")
 
 #for creating telegram thread for bot to improve performance of the bot
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
